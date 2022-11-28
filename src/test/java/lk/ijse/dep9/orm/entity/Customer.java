@@ -7,12 +7,9 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Table
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
 public class Customer {
     @Id
-    String id;
-    String name;
-     private static String address;
+    private String id;
+    private String name;
+    private String address;
 }
